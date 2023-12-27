@@ -1,0 +1,521 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+     display: flex;
+     justify-content: center;
+     
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.bllo{
+    width: 150px;
+    height: 150px;
+}
+.cont{
+   text-align: center;
+   
+}
+h1{
+    font-size: 45px;
+    color: red;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.tnlo{
+    width: 150px;
+    height: 150px;
+}
+.drsy{
+    color: white;
+    text-align: center;
+}
+.nav2{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.listitem{
+    display: flex;
+    list-style: none;
+    /* margin: 20px; */
+    padding-right: 50px;
+    align-items: center;
+
+}
+.l-item{
+    padding-right: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.das{
+    text-decoration: none;
+    color: white;
+}
+#mysearch{
+    width: 300px;
+    margin: 10px;
+    border-radius: 10PX;
+   text-align: center; 
+    height: 40PX;
+    
+}
+.butt{
+    margin: 13px;
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: chocolate;
+
+}
+.butt:hover{
+    background-color: green;
+    color: white;
+}
+.imgful img{
+    width: 99%;
+    height: 500px;
+    padding: 5px;
+    
+}
+.secdiv{
+    
+    display: flex;
+    justify-content: center;
+    border-width: 100%;
+    border-bottom: 10px;
+    border-top: 10px;
+    
+}
+.rectangle{
+    width: 700px;
+    height: 300px;
+    margin-top:50px ;
+
+}
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.userinfo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px; 
+}
+.bl{
+    display: none;
+}
+.bl:hover{
+    display: block;
+}
+.inf{
+    padding: 0 0 20px 20px;
+   
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px 5px 0 0;
+    background-color: lightpink ;
+    margin-top: 0;
+    padding-top: 10px;
+    height: 40px;
+}
+.log{
+    color: blue;
+}
+.get{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    /* width: 350px; */
+    height: 260px;
+    font-size: 18px;
+    
+}
+.us{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.item{
+    margin:0 0 20px 0;
+}
+
+.use{
+    padding-left:- 20px;
+
+}
+.pass{
+    padding-left: 7px;
+ 
+    
+}
+.ps{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.for{
+    color: blue;
+    text-decoration: none;   
+}
+.for:hover{
+   color: red;
+}
+.butclass{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+#sum{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.sumit{
+    width: 55px;
+    height:30px;
+    border-radius:5px;
+}
+.sumit:hover{
+    background-color: green;
+    color: white;
+}
+.senav{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: red;
+    text-align: center;
+    list-style: none;
+    
+}
+#don{
+    width: 50px;
+    height: 50px;
+}
+.list{
+    padding-left: 160px;
+    color: white;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.last{
+    display: flex;
+    margin-bottom: 10px;
+}
+.imfac{
+    width: 667.6px;
+    height: 273px;
+    margin-top: 40px;
+}
+.tab{
+    width: 718px;
+    height: 340px;
+    padding-left: 50px;
+
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 700px;
+}
+th{
+    width: 30%;
+    height: 40px; text-align: center;
+}
+td{
+    height: 30px;
+}
+.hed1{
+    background-color: red;
+    color: white;
+}
+.foot{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 20px 30px 20px;
+}
+.hr{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+.db1{
+    width: 80%;
+    border: 1px solid black;
+    height: 900px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+.db2{
+    background-color: burlywood;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    font-size: large;
+}
+.db3{
+    background-color: brown;
+    width: 90%;
+    height: 45px;
+    margin-left: 55px;
+    padding-top: 22.5px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.db5{
+    background-color: darkgoldenrod;
+    width: 90%;
+    height: 45px;
+    margin-left: 55px;
+    padding-top: 22.5px;
+    border-radius: 5px;
+    
+
+}
+.db7{
+    background-color:lightgreen;
+    width: 90%;
+    height: 45px;
+    margin-left: 55px;
+    padding-top: 22.5px;
+    border-radius: 5px;
+    
+ 
+}
+.ar1{
+    border: 1px solid black;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    border-radius: 5px; 
+    margin-top: 5px;
+}
+.ar2{
+    background-color: aqua;
+    height: 35px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.ar3{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+    
+}
+ .psd{
+    
+    font-size: large;
+    
+ } 
+
+
+.psd1{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: medium;
+}
+ .but{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.bd1{
+    width: 80%;
+    border: 1px solid black;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.bd2{
+    background-color: burlywood;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    font-size: large;
+    margin-bottom: 20px; 
+}
+.bd3{
+    margin-bottom: 20px;
+}
+.fn{
+    font-size: large; 
+   
+}
+.fn1{
+    font-size: medium;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+.ln{
+    font-size: large;
+}
+.ln1{
+    font-size: medium;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20px;   
+}
+.mbn{
+    font-size: large;
+    
+}
+.mbn1{
+    font-size: medium;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+.su{
+    font-size: large;
+    margin-right: 40px;
+}
+.su1{
+    font-size: medium;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+       
+}
+.butreg{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: rgb(243, 123, 123);
+}
+.butreg1{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color:lightskyblue;
+}
+.sb1{
+    
+    width: 80%;
+    border: 1px solid black;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.sb2{
+
+    background-color: burlywood;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.sb3{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.fn{
+    font-size: large; 
+   
+}
+.fn1{
+    font-size: medium;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+.ln{
+    font-size: large;
+}
+.ln1{
+    font-size: medium;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20px;   
+}
+/* About page Styles */
+
+.abim img{
+    width: 80%;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+.para{
+    font-size: large;
+    padding: 20px;
+    text-align:left;
+}
+.owc{
+    color: red;
+}
+.ol1{
+    margin-left: 30px;
+}
+.fh{
+    color: red;
+}
+.p1{
+    margin-left: 20px;
+}
+
+/*Contact Us*/
+
+.ad1{
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+.ad2{
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30%;
+}
